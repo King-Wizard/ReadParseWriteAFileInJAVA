@@ -31,7 +31,7 @@ public class Starter {
 	}
 
 	private void createNewTextFile(String strTextOutput) {
-		PrintWriter writer;
+		PrintWriter writer = null;
 		try {
 			writer = new PrintWriter(PATH_TEXT_FILE_TO_CREATE + FILE_NAME_WITH_EXTENSION_TEXT_FILE_TO_CREATE, "UTF-8");
 			writer.print(strTextOutput);
