@@ -1,6 +1,3 @@
-/*
-* @King-Wizard
-*/
 package com.lambda.readparsewrite;
 
 import java.io.BufferedReader;
